@@ -1,17 +1,18 @@
 import 'react'
-import nic from '../../assets/nic.png'
+import startImage from '../../assets/startImg.png'
 import './Home.css'
 import { Link } from 'react-router-dom'
 export default function Home(){
     return(
         <>
-        <h2>NIC Info Finder</h2>
+        <h1>NIC Detail Checker</h1>
         <div className='image'>
             <div className="click">
-                    <h2><Link to={"/details"}>Click</Link></h2>
+                    <h2><Link to={"/details"}>Start</Link></h2>
             </div>
-            <img src={nic} alt="" width="100%"/>
+            <img src={startImage} alt="" width="100%"/>
         </div>
+            <h3 className='devTag'>Developed by Sameera Madushan</h3>
         </>
     )
 }

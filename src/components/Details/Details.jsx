@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import {useState} from 'react'
 import { TextField,Button,IconButton,Alert } from '@mui/material'
-import box from '../../assets/box.png'
+import infoImage from '../../assets/infoImg.png'
 import './Details.css'
 import Card from '../Card/card.jsx'
 import CloseIcon from '@mui/icons-material/Close';
@@ -33,7 +33,7 @@ export default function Details(){
             <div className="main">
                 <div className="top">
                     <div className="imagewithclose">
-                        <img src={box} alt="No" className='topimage'/><br />
+                        <img src={infoImage} alt="No" className='topimage'/><br />
                         <IconButton aria-label="delete" className='close' onClick={()=>navigate("/")}>
                             <CloseIcon />
                         </IconButton>
