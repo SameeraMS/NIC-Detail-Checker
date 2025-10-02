@@ -1,10 +1,11 @@
 img{
     padding-bottom:10px;
+    width: 400px;
 }
 .main{
     background-color: white;
     border-radius:20px;
-    width:500px;
+    width:400px;
 }
 .inputs{
     margin-top:300px;
